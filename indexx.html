@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Elv Boutique</title>
+ <img src="logotipo.jpg" width="10%">
+      <h1>ELV boutique</h1>
+      <div class="user-options">
+      <a href="#">Acceder</a> /
+      <a href="#">Registrarse</a> |
+      <a href="#">Carrito / $0.00</a> 
+      <nav>
+    <a href="index.html">Inicio</a>
+    <a href="catalogo.html">Catálogo</a>
+</nav>
+      </div>
+    </header>
+    <nav>
+      <a href="https://store7412.wordpress.com/">Blog</a>
+    </nav>
+    <style>
+        body {
+            background-image:url("fondo.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        header {
+            background: rgba(255, 255, 255, 0.85);
+            color: black;
+            padding: 20px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+        .contenedor {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .producto {
+            background: rgba(0, 0, 0, 0.75);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            backdrop-filter: blur(3px);
+        }
+        .producto img {
+            width: 230px;
+            border-radius: 10px;
+        
+        }
+        .precio {
+            font-size: 22px;
+            font-weight: bold;
+            color: #00ff88;
+        }
+        a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #25D366;
+            background: white;
+            padding: 10px 12px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #ddd;
+            background: rgba(0,0,0,0.7);
+            margin-top: 20px;
+        }
+         /* Redes flotantes */
+        .redes-flotantes {
+            position: fixed;
+            top: 50%;
+            right: 15px;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 9999;
+        }
+        .redes-flotantes a {
+            font-size: 28px;
+            background: black;
+            padding: 10px;
+            border-radius: 50%;
+            color: black;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .redes-flotantes a:hover {
+            transform: scale(1.2);
+             }
+    </style>
+
+</head>
+<body>
+
+<header>ELV BOUTIQUE</header>
+
+<div class="contenedor">
+
+    <!-- PRODUCTO 1 -->
+    <div class="producto">
+        <img src="tenis off white.jpg" alt="Air Jordan 1 Off-White Chicago">
+        <h3>Air Jordan 1 x Off-White (Chicago)</h3>
+        <p class="precio">$1,500 MXN</p>
+        <a href="https://wa.me/5213314259878" target="_blank">Comprar por WhatsApp</a>
+    </div>
+
+    <!-- PRODUCTO 2 -->
+    <div class="producto">
+        <img src="tenis off azul.jpg" alt="Air Jordan 1 UNC Off-White">
+        <h3>Air Jordan 1 Retro High Off-White “UNC”</h3>
+        <p class="precio">$1,500 MXN</p>
+        <a href="https://wa.me/5213314259878" target="_blank">Comprar por WhatsApp</a>
+    </div>
+
+    <!-- PRODUCTO 3 -->
+    <div class="producto">
+        <img src="tenis travis.jpg" alt="Jordan 1 Low Fragment x Travis">
+        <h3>Air Jordan 1 Low Fragment x Travis Scott</h3>
+        <p class="precio">$1,500 MXN</p>
+        <a href="https://wa.me/5213314259878" target="_blank">Comprar por WhatsApp</a>
+    </div>
+
+    <!-- PRODUCTO 4 -->
+    <div class="producto">
+        <img src="tenis dior.jpg" alt="Dior B30 Sneaker">
+        <h3>Dior B30 Sneaker</h3>
+        <p class="precio">$1,500 MXN</p>
+        <a href="https://wa.me/5213314259878" target="_blank">Comprar por WhatsApp</a>
+    </div>
+
+    <!-- PRODUCTO 5 -->
+    <div class="producto">
+        <img src="tenis amiri.jpg" alt="Amiri Skel Top Low">
+        <h3>Amiri Skel Top Low”</h3>
+        <p class="precio">$1,500 MXN</p>
+        <a href="https://wa.me/5213314259878" target="_blank">Comprar por WhatsApp</a>
+    </div>
+
+    <!-- PRODUCTO 6 -->
+    <div class="producto">
+        <img src="tenis trainer.jpg" alt=" LV Trainer Maxi">
+        <h3> LV Trainer Maxi</h3>
+        <p class="precio">$1,500 MXN</p>
+        <a href="https://wa.me/5213314259878" target="_blank">Comprar por WhatsApp</a>
+    </div>
+</div>
+
+<footer>
+    WhatsApp: 331 425 9878 |
+    Instagram: @elv_boutique_mx
+    <br>Envíos a toda la República 🇲🇽
+</footer>
+
+</body>
+</html>
+<!-- Redes flotantes -->
+<div class="redes-flotantes">
+<a href="https://www.instagram.com/elv_boutique_mx?igsh=Ym1rM3BiaWNvODBw&utm_source=qr" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" width="30px">
+</a>
+
+<a href="https://www.tiktok.com/@elv_boutique?_r=1&_t=ZS-917mlEyEZ9A" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" width="30px">
+</a>
+</div>
+
+</body>
+</html>
